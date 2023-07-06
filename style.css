@@ -1,3 +1,45 @@
-h1{
-    background-color: aqua;
+html{
+    background: linear-gradient(-45deg,red,pink,orange);
+}
+h1.title{
+    text-align: center;
+}
+#sendButton{
+    padding: 1em;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: rgb(236,70,147);
+}
+#sendButton:hover{
+    color: rgb(236,70,147);
+    background-color: #FFFFFF;}
+a.email{
+    text-decoration:solid;
+    font-weight: bold;
+}
+section.form input.fullName{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+section.form input.Email{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+section.form input.tel{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+section.form input.message{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: yellow;
 }
